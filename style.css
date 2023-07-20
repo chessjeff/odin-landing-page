@@ -59,6 +59,23 @@ body {
     text-align: right;
 }
 
+.section-two {
+    text-align: center;
+    padding: 0 100px 48px;
+}
+
+.information-header {
+    margin: 30px
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+
 img {
     max-width: 100%;
     height: auto;
