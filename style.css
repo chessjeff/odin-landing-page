@@ -9,7 +9,6 @@ body {
 .section-one {
     background-color: #1F2937;
     padding: 16px 64px 80px;
-    
 }
 
 .header {
@@ -32,19 +31,48 @@ body {
 
 .hero {
     display: flex;
-    justify-content: space;
     align-items: center;
-    padding: 0;
+    justify-content: space-between;
+    padding-top: 24px;
+    gap: 20px;
+}
+
+.hero-left {
+    max-width: 50%;
+}
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+.secondary-text {
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
 .hero-img {
-    margin-right: 0;
-    
-    object-fit: scale-down;
+    flex: 1 0 50%;
+    text-align: right;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
 
-a {
+button {
+    background-color: #3882F6;
+    padding: 4px 25px;
+    border-radius: 8px;
+    border: 0;
+}
+
+a,
+.secondary-text {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
