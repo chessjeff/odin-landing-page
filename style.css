@@ -38,7 +38,7 @@ body {
 }
 
 .hero-left {
-    max-width: 50%;
+    max-width: 75%;
 }
 
 .main-text {
@@ -116,6 +116,7 @@ body {
 
 .action-right {
     align-self: center;
+    font-size: 8px;
 }
 
 .call-to-action{
@@ -132,6 +133,10 @@ body {
     border: 2px solid #F9FAF8;
     }
 
+.action-right a {
+    font-size: 14px;
+}
+
 .footer {
     text-align: center;
     background-color: #1F2937;
@@ -147,7 +152,7 @@ img {
 
 button {
     background-color: #3882F6;
-    padding: 4px 25px;
+    padding: 4px 20px;
     border-radius: 8px;
     border: 0;
 }
